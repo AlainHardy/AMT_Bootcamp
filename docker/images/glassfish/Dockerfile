@@ -13,6 +13,6 @@ asadmin --interactive=false --user admin --passwordfile=/tmp/gfpw.txt create-jdb
 
 RUN ./glassfish4/bin/asadmin stop-domain domainAMT
 
-ADD /target/Bootcamp-1.0-SNAPSHOT.war /glassfish4/glassfish/domains/domainAMT/autodeploy
+ADD /war/Bootcamp-1.0-SNAPSHOT.war /glassfish4/glassfish/domains/domainAMT/autodeploy
 
 CMD ["asadmin", "start-domain", "-v", "domainAMT"]
