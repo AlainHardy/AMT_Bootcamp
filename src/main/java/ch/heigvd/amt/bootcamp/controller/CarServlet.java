@@ -77,7 +77,7 @@ public class CarServlet extends HttpServlet {
          request.setAttribute("color", color);
       } else {
          // Add a break line  for a better display if there already is an error
-         if (errorMessage.equals("")) {
+         if (!errorMessage.equals("")) {
             errorMessage += "<br/>";
          }
          
@@ -90,7 +90,7 @@ public class CarServlet extends HttpServlet {
          request.setAttribute("horsePower", horsePower);
       } else {
          // Add a break line  for a better display if there already is an error
-         if (errorMessage.equals("")) {
+         if (!errorMessage.equals("")) {
             errorMessage += "<br/>";
          }
          
@@ -103,7 +103,7 @@ public class CarServlet extends HttpServlet {
          request.setAttribute("price", price);
       } else {
          // Add a break line  for a better display if there already is an error
-         if (errorMessage.equals("")) {
+         if (!errorMessage.equals("")) {
             errorMessage += "<br/>";
          }
          

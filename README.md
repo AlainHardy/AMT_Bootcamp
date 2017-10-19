@@ -3,7 +3,7 @@ This application has been made for the course of AMT.  It is possible to do simp
 
 ## Setup
 You can simply install the environment with docker and docker-compose. It will mount a mysql, phpmyadmin and a glassfish server.
-Go to the **_docker/topology_amt_** folder. It contains the **_docker-compose.yml_** file. Run the following command in the folder :
+Go to the **_docker/topology_amt/_** folder. It contains the **_docker-compose.yml_** file. Run the following command in the folder :
 ```
 docker-compose up --build
 ```
@@ -20,7 +20,7 @@ port : __3306__
 ### phpmyadmin
 login : __root__ / __adminpw__
 port : __6060__
-###Glassfish
+### Glassfish
 login : __admin__ /  __glassfish__ (
 Admin console port : __4848__
 Application port : __8080__
