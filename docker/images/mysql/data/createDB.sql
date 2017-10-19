@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS bootcamp_db;
+
+CREATE DATABASE bootcamp_db;
+
+USE bootcamp_db;
+
+CREATE TABLE cars (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	brand VARCHAR(64) NOT NULL,
+	color VARCHAR(64) NOT NULL,
+	horsePower INT NOT NULL,
+	price INT NOT NULL
+);
