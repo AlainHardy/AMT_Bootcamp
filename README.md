@@ -21,7 +21,7 @@ port : __3306__
 login : __root__ / __adminpw__
 port : __6060__
 ### Glassfish
-login : __admin__ /  __glassfish__ (
+login : __admin__ /  __glassfish__ 
 Admin console port : __4848__
 Application port : __8080__
 
